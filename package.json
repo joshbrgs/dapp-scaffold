@@ -1,0 +1,9 @@
+{
+  "name": "dapp-scaffold",
+  "version": "1.0.0",
+  "description": "Mono-Repo of a scaffolding to buidl your own ethereum dapp with NextJs FrontEnd, HardHat in Typescript for Smart Contract Testing and development,and with Chainlink and an avalable directory for creating your own sub graph for integrating the Graph.",
+  "repository": "git@github.com:jlifts/dapp-scaffold.git",
+  "author": "Josh Burgess <burgessj247@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
