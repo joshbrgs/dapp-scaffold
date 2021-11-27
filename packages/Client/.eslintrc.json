@@ -1,3 +1,38 @@
 {
-  "extends": "next/core-web-vitals"
+  "env":{
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["next/core-web-vitals", "prettier", "eslint:recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "overrides": [{
+    "files": ["*.ts", "*.tsx"]
+  }],
+  "rules": {
+    "prettier/prettier": ["error", {"endOfLine": "auto"}],
+    "default-case": "error",
+    "dot-notation": "warn",
+    "eqeqeq":"warn",
+    "no-else-return":"warn",
+    "no-floating-decimal":"error",
+    "no-multi-spaces":"warn",
+    "radix":"error",
+    "yoda":"warn",
+    "no-console":"warn",
+    "no-use-before-define":"error",
+    "arrow-spacing": "error",
+    "object-shorthand": ["error", "always"],
+    "prefer-spread": "error",
+    "react/prop-types": "off"
+  },
+  "ignorePatterns": ["*.test.ts", "*.test.tsx"]
 }
