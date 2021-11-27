@@ -62,27 +62,6 @@ const Home: NextPage = () => {
 							<h2>Next.js Docs &rarr;</h2>
 							<p>Find in-depth information about Next.js features and API.</p>
 						</a>
-
-						<a href="https://thegraph.com/en/" className={styles.card}>
-							<h2>The Graph &rarr;</h2>
-							<p>
-								Learn about The Graph and how to query the blockchain with gql!
-							</p>
-						</a>
-
-						<a href="https://hardhat.org/" className={styles.card}>
-							<h2>Hardhat &rarr;</h2>
-							<p>Discover the popular smart contract testing environment.</p>
-						</a>
-
-						<a
-							href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-							className={styles.card}>
-							<h2>Deploy &rarr;</h2>
-							<p>
-								Instantly deploy your Next.js site to a public URL with Vercel.
-							</p>
-						</a>
 						<a href="https://usedapp.io/" className={styles.card}>
 							<h2>UseDapp &rarr;</h2>
 							<p>
@@ -97,6 +76,33 @@ const Home: NextPage = () => {
 						<a href="https://daisyui.com/" className={styles.card}>
 							<h2>Daisy UI&rarr;</h2>
 							<p>Daisy UI is a flexible component wrapper of Tailwind.</p>
+						</a>
+						<a href="https://thegraph.com/en/" className={styles.card}>
+							<h2>The Graph &rarr;</h2>
+							<p>
+								Learn about The Graph and how to query the blockchain with gql!
+							</p>
+						</a>
+						<a
+							href="https://www.apollographql.com/docs/react/why-apollo/"
+							className={styles.card}>
+							<h2>Apollo Client&rarr;</h2>
+							<p>
+								Apollo Client enables you to write gql to query your api or
+								smart contract in our case.
+							</p>
+						</a>
+						<a href="https://hardhat.org/" className={styles.card}>
+							<h2>Hardhat &rarr;</h2>
+							<p>Discover the popular smart contract testing environment.</p>
+						</a>
+						<a
+							href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+							className={styles.card}>
+							<h2>Deploy &rarr;</h2>
+							<p>
+								Instantly deploy your Next.js site to a public URL with Vercel.
+							</p>
 						</a>
 					</div>
 				</main>

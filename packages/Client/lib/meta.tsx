@@ -46,8 +46,12 @@ const Meta: FC = ({ children }) => {
 				content="summary_large_image"
 				key="twittercard"
 			/>
-			<meta name="twitter:site" content="@tumee" key="twittersite" />
-			<meta name="twitter:creator" content="@tumee" key="twittercreator" />
+			<meta name="twitter:site" content={twitterHandle} key="twittersite" />
+			<meta
+				name="twitter:creator"
+				content={twitterHandle}
+				key="twittercreator"
+			/>
 
 			{/* Material UI */}
 			<link

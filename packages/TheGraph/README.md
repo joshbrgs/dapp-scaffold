@@ -236,8 +236,13 @@ client
 ### References <a name="ref"></a>
 
 [The Graph Quick Start](https://thegraph.com/docs/developer/quick-start)
+
 [Subgraph Studio](https://thegraph.com/studio)
+
 [Apollo client](https://www.apollographql.com/docs/)
+
 [The Graph](https://thegraph.com)
+
 [The Graph Explorer](https://thegraph.com/explorer)
+
 [Hosted Service](https://thegraph.com/hosted-service/)

@@ -1,4 +1,24 @@
-# Advanced Sample Hardhat Project
+This is Bootstrapped from the Typescript Hardhat Sample Project
+
+# Table of Contents
+
+1. [Quick Start](#start)
+2. [What is Hardhat](#hardhat)
+3. [Project Scripts](#scripts)
+4. [Contracts](#contracts)
+5. [Spin up Hardhat Project Info](#spinup)
+6. [Etherscan verification](#etherscan)
+7. [Performance optimizations](#optimize)
+8. [References](#ref)
+
+## Quick Start <a name="start"></a>
+
+### What is Hardhat <a name="hardhat"></a>
+
+### NPM or Yarn Scripts <a name="scripts"></a>
+
+### Sample Contracts <a name="contracts"></a>
+### Advanced Sample Hardhat Project <a name="spinup"></a>
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
@@ -25,7 +45,7 @@ npx solhint 'contracts/**/*.sol'
 npx solhint 'contracts/**/*.sol' --fix
 ```
 
-# Etherscan verification
+### Etherscan verification <a name="etherscan"></a>
 
 To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
 
@@ -41,6 +61,12 @@ Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 ```
 
-# Performance optimizations
+### Performance optimizations <a name="optimize"></a>
 
 For faster runs of your tests and scripts, consider skipping ts-node's type checking by setting the environment variable `TS_NODE_TRANSPILE_ONLY` to `1` in hardhat's environment. For more details see [the documentation](https://hardhat.org/guides/typescript.html#performance-optimizations).
+
+## References <a name="ref"></a>
+
+[Hardhat](https://hardhat.org/)
+
+[Hardhat Docs](https://hardhat.org/getting-started/)
