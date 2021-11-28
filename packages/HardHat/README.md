@@ -17,7 +17,6 @@ This is Bootstrapped from the Typescript Hardhat Sample Project
 
 ### NPM or Yarn Scripts <a name="scripts"></a>
 
-### Sample Contracts <a name="contracts"></a>
 ### Advanced Sample Hardhat Project <a name="spinup"></a>
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
