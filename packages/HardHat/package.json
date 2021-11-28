@@ -10,7 +10,7 @@
     "serve": "npx hardhat node",
     "console": "npx hardhat console",
     "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
-    "prepublish": "npx hardhat run scripts/deploy.ts" 
+    "deploy:rinkeby": "npx hardhat run scripts/deploy.ts --network rinkeby"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",

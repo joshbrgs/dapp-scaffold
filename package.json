@@ -5,5 +5,29 @@
   "repository": "git@github.com:jlifts/dapp-scaffold.git",
   "author": "Josh Burgess <burgessj247@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "keywords": [
+    "ethereum",
+    "react",
+    "workspaces",
+    "yarn"
+  ],
+  "workspaces": {
+    "packages": [
+      "./packages/*"
+    ] 
+  },
+  "scripts": {
+    "dev": "yarn workspace client dev",
+    "build": "yarn workspace client build",
+    "start": "yarn workspace client start",
+    "test": "yarn workspace client test",
+    "chain": "yarn workspace hardhat chain",
+    "deploy": "yarn workspace hardhat deploy",
+    "deploy:rinkeby": "yarn workspace hardhat deploy:rinkeby",
+    "compile": "yarn workspace hardhat build",
+    "test:contracts": "yarn workspace hardhat test",
+    "accounts": "yarn workspace hardhat accounts",
+    "serve": "yarn workspace hardhat node"
+  }
 }

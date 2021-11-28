@@ -6,8 +6,9 @@ import Image from 'next/image';
 import WalletConnect from '../components/WalletConnect';
 import styles from '../styles/Home.module.css';
 import { useEffect } from 'react';
+import { Tokens } from '../lib/constants';
 
-const DAI = '0x6b175474e89094c44da98b954eedeac495271d0f';
+const DAI = Tokens.DAI;
 
 const Home: NextPage = () => {
 	const { account } = useEthers();

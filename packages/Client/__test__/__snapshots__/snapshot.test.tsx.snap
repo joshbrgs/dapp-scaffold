@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+Array [
+  <div
+    className="navbar bg-neutral shadow-lg text-neutral-content "
+  >
+    <div
+      className="flex-1 mx-2"
+    >
+      <span
+        className="text-lg font-bold px-2 "
+      >
+        Dapp Scaffold
+      </span>
+      <div
+        className="form-control"
+      >
+        <label
+          className="label"
+        >
+          <span
+            className="material-icons mr-2"
+          >
+            light_mode
+          </span>
+          <input
+            className="toggle toggle-primary cursor-pointer"
+            data-toggle-theme="dark,light"
+            type="checkbox"
+          />
+          <span
+            className="material-icons ml-2"
+          >
+            dark_mode
+          </span>
+        </label>
+      </div>
+    </div>
+    <div>
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+      >
+        Connect Wallet
+      </button>
+    </div>
+  </div>,
+  <div
+    className="container"
+  >
+    <main
+      className="main"
+    >
+      <h1
+        className="title"
+      >
+        Welcome to 
+        <a>
+          Dapp Scaffold!
+        </a>
+      </h1>
+      <p
+        className="description"
+      >
+        Get started by editing
+         
+        <code
+          className="code"
+        >
+          pages/index.tsx
+        </code>
+      </p>
+      <div
+        className="grid"
+      >
+        <a
+          className="card"
+          href="https://nextjs.org/docs"
+        >
+          <h2>
+            Next.js Docs →
+          </h2>
+          <p>
+            Find in-depth information about Next.js features and API.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://usedapp.io/"
+        >
+          <h2>
+            UseDapp →
+          </h2>
+          <p>
+            A React Hook based library that makes Front End Dapp developement a breeze.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://tailwindcss.com/"
+        >
+          <h2>
+            Tailwind CSS→
+          </h2>
+          <p>
+            Explore the utility based css framework Tailwind CSS.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://daisyui.com/"
+        >
+          <h2>
+            Daisy UI→
+          </h2>
+          <p>
+            Daisy UI is a flexible component wrapper of Tailwind.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://thegraph.com/en/"
+        >
+          <h2>
+            The Graph →
+          </h2>
+          <p>
+            Learn about The Graph and how to query the blockchain with gql!
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://www.apollographql.com/docs/react/why-apollo/"
+        >
+          <h2>
+            Apollo Client→
+          </h2>
+          <p>
+            Apollo Client enables you to write gql to query your api or smart contract in our case.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://hardhat.org/"
+        >
+          <h2>
+            Hardhat →
+          </h2>
+          <p>
+            Discover the popular smart contract testing environment.
+          </p>
+        </a>
+        <a
+          className="card"
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        >
+          <h2>
+            Deploy →
+          </h2>
+          <p>
+            Instantly deploy your Next.js site to a public URL with Vercel.
+          </p>
+        </a>
+      </div>
+    </main>
+    <footer
+      className="footer"
+    >
+      <a
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by
+         
+        <span
+          className="logo"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
+            <img
+              alt="Vercel Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Vercel Logo"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fvercel.svg&w=256&q=75"
+                srcSet="/_next/image?url=%2Fvercel.svg&w=96&q=75 1x, /_next/image?url=%2Fvercel.svg&w=256&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </span>
+      </a>
+    </footer>
+  </div>,
+]
+`;
