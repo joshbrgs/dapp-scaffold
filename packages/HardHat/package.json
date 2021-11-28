@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build" : "npx hardhat compile",
+    "test": "REPORT_GAS=true npx hardhat test",
+    "accounts": "npx hardhat accounts",
+    "serve": "npx hardhat node",
+    "console": "npx hardhat console",
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "prepublish": "npx hardhat run scripts/deploy.ts" 
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
