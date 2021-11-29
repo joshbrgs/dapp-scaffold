@@ -22,12 +22,12 @@
     "build": "yarn workspace client build",
     "start": "yarn workspace client start",
     "test": "yarn workspace client test",
-    "chain": "yarn workspace hardhat chain",
+    "serve": "yarn workspace hardhat serve",
+    "compile": "yarn workspace hardhat build",
     "deploy": "yarn workspace hardhat deploy",
     "deploy:rinkeby": "yarn workspace hardhat deploy:rinkeby",
-    "compile": "yarn workspace hardhat build",
     "test:contracts": "yarn workspace hardhat test",
     "accounts": "yarn workspace hardhat accounts",
-    "serve": "yarn workspace hardhat node"
+    "clean": "yarn workspace hardhat clean"
   }
 }

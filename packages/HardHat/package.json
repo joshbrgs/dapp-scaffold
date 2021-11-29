@@ -8,6 +8,7 @@
     "test": "REPORT_GAS=true npx hardhat test",
     "accounts": "npx hardhat accounts",
     "serve": "npx hardhat node",
+    "clean": "npx hardhat clean",
     "console": "npx hardhat console",
     "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
     "deploy:rinkeby": "npx hardhat run scripts/deploy.ts --network rinkeby"
