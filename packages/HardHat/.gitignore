@@ -4,6 +4,7 @@ coverage
 coverage.json
 typechain
 yarn.lock
+yarn-error.log
 
 #Hardhat files
 cache

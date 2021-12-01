@@ -15,13 +15,22 @@
   "workspaces": {
     "packages": [
       "./packages/*"
-    ] 
+    ],
+    "nohoist": [
+      "**/@graphprotocol/graph-ts",
+      "**/@graphprotocol/graph-ts/**",
+      "**/hardhat",
+      "**/hardhat/**",
+      "**/hardhat-ts",
+      "**/hardhat-ts/**"
+    ]
   },
   "scripts": {
     "dev": "yarn workspace client dev",
     "build": "yarn workspace client build",
     "start": "yarn workspace client start",
     "test": "yarn workspace client test",
+    "test:hardhat": "yarn workspace hardhat test",
     "serve": "yarn workspace hardhat serve",
     "compile": "yarn workspace hardhat build",
     "deploy": "yarn workspace hardhat deploy",

@@ -33,10 +33,13 @@ const config: HardhatUserConfig = {
 		artifacts: '../client/artifacts',
 	},
 	networks: {
-		rinkeby: {
-			url: `https://rinkeby.infura.io/v3/${INFURA_ID}`,
-			accounts: [`0x${RINKEBY_PRIVATE_KEY}`],
+		hardhat: {
+			chainId: 1337,
 		},
+		// rinkeby: {
+		// 	url: `https://rinkeby.infura.io/v3/${INFURA_ID}`,
+		// 	accounts: [`0x${RINKEBY_PRIVATE_KEY}`],
+		// },
 	},
 	gasReporter: {
 		enabled: REPORT_GAS !== undefined,
