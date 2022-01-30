@@ -1,0 +1,11 @@
+doctype html
+html(lang="en", class='bg-slate-700')
+    include head.pug
+    body
+        section(class='flex flex-col h-screen m-12 justify-center')
+            h1(class='text-7xl') Don't Miss Out On A Chance of a Dog's Lifetime
+            form(action="/api/send", method="POST", class="flex flex-col mb-1 mt-7")
+                input(type="email", name="email", placeholder="Enter your email, if you want", class="w-full md:w-2/5 input bg-slate-6 00 text-slate-400")
+                input(type='submit', value='Submit', class='btn my-2 w-full md:w-1/5')
+        section(class='w-screen bg-slate-800 h-1/4')
+            include footer.pug

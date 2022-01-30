@@ -1,0 +1,18 @@
+//- includes/footer.pug
+
+footer(class="flex flex-row justify-between mt-4 p-12")
+    div(class='flex flex-col space-y-4')
+        div
+            h2(class='text-2xl cursor-default mb-1') Get On Our List
+            form(action="/api/send", method="POST", class="mb-1")
+                if success
+                    p Thank you for signing up!
+                else
+                    input(type="email", name="email", placeholder="Enter your email, if you want", class="w-full input bg-slate-700 text-slate-400")
+                    input(type='submit', value='Submit', class='btn my-2')
+        span(class='cursor-default') ©2022 BlndShba
+    div(class='flex flex-row space-x-3 mt-2')
+        a(href="http://discord.com", style={width: '1rem', height: '1rem'}) 
+            img(src="/Discord-Logo-White.svg", alt="Discord")
+        a(href="http://twitter.com", style={width: '1rem', height: '1rem'})
+            img(src="/Logo white.svg", alt="Twitter")

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    frontpageserver:
+        build:
+            context: ./packages/landingpage
+        ports:
+            - "6000:6000"
+    nginx:
+        restart: always
+        build:
+            context: ./packages/nginx
+        ports:
+            - "80:80"
